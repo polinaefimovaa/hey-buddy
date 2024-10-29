@@ -107,7 +107,7 @@ public func createCardToDo(withText text: String, text1: String, text2:String, i
         .padding(.horizontal, 14)
         .padding(.bottom, 14)
     }
-    .frame(width: 360)
+    .frame(width: 380)
     .background(.white)
     .cornerRadius(15)
 }

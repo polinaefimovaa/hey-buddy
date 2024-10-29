@@ -45,7 +45,7 @@ struct aboutView: View {
                                 .foregroundStyle(.white)
                         }
                         Spacer()
-                        createCardToDo(withText: "Заполни анкету, указав свои данные, программу и увлечения", text1: "Ожидай своего бадди, в ближайшее времяон выберет тебя", text2: "Познакомься с бадди и задавай ему интересующие вопросы", image: "filledToDoBlue", image1: "emptyToDoBlue", color: .heyBlue)
+                        createCardToDo(withText: "Заполни анкету, указав свои данные, программу и увлечения", text1: "Ожидай своего бадди, в ближайшее время он выберет тебя", text2: "Познакомься с бадди и задавай ему интересующие вопросы", image: "filledToDoBlue", image1: "emptyToDoBlue", color: .heyBlue)
                     }
                     .padding(.vertical, 50)
                 }
