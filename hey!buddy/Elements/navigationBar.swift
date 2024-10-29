@@ -1,18 +1,37 @@
-//
-//  navigationBar.swift
-//  hey!buddy
-//
-//  Created by Полина Ефимова on 28.10.24.
-//
-
 import SwiftUI
 
-struct navigationBar: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+public func navigationBar(presentationMode: Binding<PresentationMode>, color:Color) -> some View {
+    return VStack {
     }
-}
-
-#Preview {
-    navigationBar()
+    
+    .toolbarBackground(
+        Color.heyBlue,for: .navigationBar
+    )
+    
+    .toolbar {
+        
+        ToolbarItem(placement: .navigationBarLeading) {
+            Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                createIconButton(backgroundColor: color, iconName: "cancel")
+            }
+            
+        }
+        ToolbarItem(placement: .principal) {
+            Text("Профиль")
+                .font(.custom("Inter18pt-Regular", size: 18))
+                .foregroundColor(.white)
+        }
+        
+        ToolbarItem(placement: .navigationBarTrailing) {
+            Button(action: {
+                // Действие для правой кнопки
+            }) {
+                createIconButton(backgroundColor: color, iconName: "changeLanguage")
+                    .padding(.vertical,15)
+            }
+            
+        }
+    }
 }

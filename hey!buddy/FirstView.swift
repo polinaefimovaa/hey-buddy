@@ -9,9 +9,22 @@ import SwiftUI
 
 struct FirstView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.heyBlue
+            Image("backgroundFirstScreen")
+                .resizable()
+                .ignoresSafeArea()
+                .scaledToFill()
+            Image("logo")
+                .resizable()
+                .frame(width: 200, height:116)
+                
+        }
+        
     }
+    
 }
+
 
 #Preview {
     FirstView()

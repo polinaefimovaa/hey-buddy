@@ -9,16 +9,41 @@
 /* Begin PBXBuildFile section */
 		247765BD2CCE8B0000C01755 /* hey_buddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765BC2CCE8B0000C01755 /* hey_buddyApp.swift */; };
 		247765BF2CCE8B0000C01755 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765BE2CCE8B0000C01755 /* ContentView.swift */; };
-		247765C12CCE8B0200C01755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247765C02CCE8B0200C01755 /* Assets.xcassets */; };
 		247765C42CCE8B0200C01755 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247765C32CCE8B0200C01755 /* Preview Assets.xcassets */; };
+		247765D82CCEA70D00C01755 /* Inter_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247765D62CCEA70D00C01755 /* Inter_18pt-SemiBold.ttf */; };
+		247765D92CCEA70D00C01755 /* Inter_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247765D72CCEA70D00C01755 /* Inter_18pt-Regular.ttf */; };
+		247765DB2CCEA8B300C01755 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765DA2CCEA8B300C01755 /* FirstView.swift */; };
+		247765DD2CCEB23100C01755 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765DC2CCEB23100C01755 /* mainView.swift */; };
+		247765E12CCEC7AB00C01755 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765E02CCEC7AB00C01755 /* aboutView.swift */; };
+		247765E62CCED2B100C01755 /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765E52CCED2B100C01755 /* button.swift */; };
+		247765E82CCED3CC00C01755 /* tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765E72CCED3CC00C01755 /* tag.swift */; };
+		247765EA2CCEEBA100C01755 /* titleInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765E92CCEEBA100C01755 /* titleInter.swift */; };
+		247765EC2CCF4C8E00C01755 /* cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765EB2CCF4C8E00C01755 /* cards.swift */; };
+		247765F02CCF704900C01755 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765EF2CCF704900C01755 /* profileView.swift */; };
+		247765F22CCF85E400C01755 /* navigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247765F12CCF85E400C01755 /* navigationBar.swift */; };
+		247765F42CCF969C00C01755 /* Inter_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247765F32CCF969C00C01755 /* Inter_18pt-Italic.ttf */; };
+		247765F62CCFBDEA00C01755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247765F52CCFBDEA00C01755 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		247765B92CCE8B0000C01755 /* hey!buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hey!buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		247765BC2CCE8B0000C01755 /* hey_buddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hey_buddyApp.swift; sourceTree = "<group>"; };
 		247765BE2CCE8B0000C01755 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		247765C02CCE8B0200C01755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247765C32CCE8B0200C01755 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		247765CF2CCE97D300C01755 /* hey-buddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hey-buddy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		247765D62CCEA70D00C01755 /* Inter_18pt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		247765D72CCEA70D00C01755 /* Inter_18pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		247765DA2CCEA8B300C01755 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		247765DC2CCEB23100C01755 /* mainView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
+		247765E02CCEC7AB00C01755 /* aboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
+		247765E52CCED2B100C01755 /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		247765E72CCED3CC00C01755 /* tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tag.swift; sourceTree = "<group>"; };
+		247765E92CCEEBA100C01755 /* titleInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleInter.swift; sourceTree = "<group>"; };
+		247765EB2CCF4C8E00C01755 /* cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards.swift; sourceTree = "<group>"; };
+		247765EF2CCF704900C01755 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		247765F12CCF85E400C01755 /* navigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBar.swift; sourceTree = "<group>"; };
+		247765F32CCF969C00C01755 /* Inter_18pt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Italic.ttf"; sourceTree = "<group>"; };
+		247765F52CCFBDEA00C01755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +76,16 @@
 		247765BB2CCE8B0000C01755 /* hey!buddy */ = {
 			isa = PBXGroup;
 			children = (
+				247765CF2CCE97D300C01755 /* hey-buddy-Info.plist */,
+				247765E02CCEC7AB00C01755 /* aboutView.swift */,
 				247765BC2CCE8B0000C01755 /* hey_buddyApp.swift */,
 				247765BE2CCE8B0000C01755 /* ContentView.swift */,
-				247765C02CCE8B0200C01755 /* Assets.xcassets */,
+				247765DA2CCEA8B300C01755 /* FirstView.swift */,
+				247765DC2CCEB23100C01755 /* mainView.swift */,
+				247765EF2CCF704900C01755 /* profileView.swift */,
+				247765F52CCFBDEA00C01755 /* Assets.xcassets */,
+				247765CA2CCE8FD700C01755 /* Fonts */,
+				247765E22CCED22300C01755 /* Elements */,
 				247765C22CCE8B0200C01755 /* Preview Content */,
 			);
 			path = "hey!buddy";
@@ -65,6 +97,28 @@
 				247765C32CCE8B0200C01755 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		247765CA2CCE8FD700C01755 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				247765F32CCF969C00C01755 /* Inter_18pt-Italic.ttf */,
+				247765D72CCEA70D00C01755 /* Inter_18pt-Regular.ttf */,
+				247765D62CCEA70D00C01755 /* Inter_18pt-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		247765E22CCED22300C01755 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				247765E72CCED3CC00C01755 /* tag.swift */,
+				247765E52CCED2B100C01755 /* button.swift */,
+				247765E92CCEEBA100C01755 /* titleInter.swift */,
+				247765EB2CCF4C8E00C01755 /* cards.swift */,
+				247765F12CCF85E400C01755 /* navigationBar.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +148,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -126,7 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				247765C42CCE8B0200C01755 /* Preview Assets.xcassets in Resources */,
-				247765C12CCE8B0200C01755 /* Assets.xcassets in Resources */,
+				247765D82CCEA70D00C01755 /* Inter_18pt-SemiBold.ttf in Resources */,
+				247765D92CCEA70D00C01755 /* Inter_18pt-Regular.ttf in Resources */,
+				247765F42CCF969C00C01755 /* Inter_18pt-Italic.ttf in Resources */,
+				247765F62CCFBDEA00C01755 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247765E82CCED3CC00C01755 /* tag.swift in Sources */,
+				247765E62CCED2B100C01755 /* button.swift in Sources */,
+				247765F22CCF85E400C01755 /* navigationBar.swift in Sources */,
+				247765DB2CCEA8B300C01755 /* FirstView.swift in Sources */,
 				247765BF2CCE8B0000C01755 /* ContentView.swift in Sources */,
+				247765EA2CCEEBA100C01755 /* titleInter.swift in Sources */,
+				247765DD2CCEB23100C01755 /* mainView.swift in Sources */,
+				247765F02CCF704900C01755 /* profileView.swift in Sources */,
+				247765E12CCEC7AB00C01755 /* aboutView.swift in Sources */,
 				247765BD2CCE8B0000C01755 /* hey_buddyApp.swift in Sources */,
+				247765EC2CCF4C8E00C01755 /* cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +343,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hey!buddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hey-buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +372,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hey!buddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hey-buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
